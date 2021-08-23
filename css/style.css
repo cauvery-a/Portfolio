@@ -142,6 +142,8 @@ input[type="submit"]:hover {
   opacity: 0.8;
 }
 
-@media query {
-
+@media screen and (max-width:500px) {
+  .project_item {
+    display: block;
+  }
 }
