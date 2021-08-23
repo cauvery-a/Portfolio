@@ -146,4 +146,10 @@ input[type="submit"]:hover {
   .project_item {
     display: block;
   }
+  .experience_item {
+    display: block;
+  }
+  .education_item {
+    display: block;
+  }
 }
