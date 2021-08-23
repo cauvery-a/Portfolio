@@ -1,0 +1,147 @@
+* {
+  font-family: "Helvetica";
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 45px;
+  font-weight: bold;
+  text-align: center;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #000080;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.container {
+  max-width: 850px;
+  margin: auto;
+}
+
+.about_me {
+  text-align: center;
+}
+
+.about_me > h2 {
+  font-style: italic;
+  font-size: 20px;
+}
+
+.projects {
+  margin-top: 30px;
+}
+
+.project_list {
+  margin: 25px;
+}
+
+.project_item {
+  display: flex;
+  border-bottom: 1px solid gray;
+}
+
+.project_item > img {
+  width: 250px;
+  padding: 20px;
+}
+
+.certificate > img {
+  width: 250px;
+}
+
+.certficate_list {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.certificate {
+  margin: 15px;
+}
+
+.certificate > p {
+  margin: 0;
+}
+
+.experience_item {
+  margin: 20px;
+  border-bottom: 1px solid gray;
+  display: flex;
+}
+
+.experience_item > img {
+  max-width: 120px;
+  max-height: 100px;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+
+.experience_item > h3 {
+  margin: 5;
+}
+
+.experience_item > p {
+  margin: 0;
+}
+
+.education_item {
+  margin-left: 20px;
+  border-bottom: 1px solid gray;
+  display: flex;
+}
+
+.education_item > img {
+  max-width: 100px;
+  max-height: 100px;
+  padding-top: 30px;
+  padding-right: 20px;
+}
+
+form {
+  padding: 20px;
+  max-width: 500px;
+}
+
+input {
+  display: inline-block;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 80%;
+}
+
+textarea {
+  display: inline-block;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 80%;
+}
+
+input[type="submit"] {
+  padding : 10px;
+  width: 100px;
+  border-radius: 5px;
+  border: none;
+  background-color: #008CBA;
+  color: white;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  opacity: 0.8;
+}
+
+@media query {
+
+}
